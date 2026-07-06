@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>MorserinoWinKeyboard</RootNamespace>
+    <AssemblyName>MorserinoWinKeyboard</AssemblyName>
+    <ApplicationIcon>Resources\app.ico</ApplicationIcon>
+    <Product>Morserino32 Serial Keyboard</Product>
+    <Company></Company>
+    <Description>Sends typed text to a Morserino-32 over USB serial to be played as Morse (M32 Protocol v1.3). Windows counterpart of the macOS Morserino32 Serial Keyboard app.</Description>
+    <Version>1.0.0</Version>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\app.ico" />
+  </ItemGroup>
+
+</Project>
